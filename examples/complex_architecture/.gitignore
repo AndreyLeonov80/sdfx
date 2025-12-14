@@ -1,0 +1,34 @@
+# Compiled binary
+complex_architecture
+
+# Generated STL/3MF files
+*.stl
+*.3mf
+*.obj
+*.ply
+
+# Build artifacts
+*.o
+*.a
+*.so
+
+# Backup files
+*.backup
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+build.log
+
+# Test files
+*_test.go.tmp
