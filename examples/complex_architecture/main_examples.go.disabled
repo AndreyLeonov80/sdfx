@@ -1,0 +1,28 @@
+//-----------------------------------------------------------------------------
+/*
+
+Alternative Main - Run Usage Examples
+
+To use this instead of the default main.go:
+1. Rename main.go to main_assembly.go.disabled
+2. Rename this file to main.go
+3. Run: go run .
+
+This will execute all architectural pattern examples.
+
+*/
+//-----------------------------------------------------------------------------
+
+package main
+
+import (
+	"log"
+)
+
+func main() {
+	if err := RunAllExamples(); err != nil {
+		log.Fatalf("Examples failed: %s", err)
+	}
+}
+
+//-----------------------------------------------------------------------------
